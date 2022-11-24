@@ -1,7 +1,14 @@
-// write your functions here
-
 function calc(a, sign, b) {
-	// write your code here
+	switch (sign) {
+		case '+':
+			return a + b;
+		case '-':
+			return a - b;
+		case '*':
+			return a * b;
+		case '/':
+			return a / b;
+	}
 }
 
 module.exports = calc;
